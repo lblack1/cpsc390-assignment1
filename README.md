@@ -3,6 +3,7 @@ A Search Agent AI
 
 Lloyd Black
 2295968
+lblack@chapman.edu
 CPSC390
 Erik Linstead
 
