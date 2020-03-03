@@ -21,6 +21,11 @@ class Simulation {
 		string ConstructOutput(State* s);
 	
 	private:
+		/* These two pointers are meant to be the same, but for some reason the
+		*  grid pointer kept getting nulled out by the time it reached functions beyond the constructor.
+		*  I still have no idea why that was happening, but simply copying the address to a different
+		*  variable seemed to fix it. C++ works in mysterious ways.
+		*/
 		char** grid;
 		char** notnulledgrid;
 
