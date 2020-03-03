@@ -1,0 +1,22 @@
+AI Prog assignment 1 notes
+
+What classes:
+	State - evaluation operator, successor function, agent - subclasses for different cost evaluation
+	State node - state, next (for )
+	Fringe - Queue of some sort, always best-first insertion
+	Simulation - Closed list, Fringes, Some way to track current path (single linked list w/ head at the end?)
+
+Procedure (simulation class)
+	Read in grid - use to find inital state and goal state
+	Assign initial state to current state
+	While current state != goal state
+		If current state == null:
+			break
+		Else:
+			Insert current state to closed list (doesn't need to be full state node, can just be agent coords)
+			Insert current state to path
+			Get current state successors
+			Insert sucessors not in closed list to fringe
+			Pop(Fringe) -> current state
+	return path (or fail)
+
