@@ -11,7 +11,7 @@ A program that takes in a text file, constructs a map from it, and runs a search
 
 1. Source Files - main.cpp, BuggeredFormatException.h, BuggeredFormatException.cpp, CostCalc.h, CostCalc.cpp, FileNotFoundException.h, FileNotFoundException.cpp, Fringe.h, Fringe.cpp, Simulation.h, Simulation.cpp, State.h, State.cpp
 
-2. Issues - None that I've found but I'm very tired so probably some somewhere.
+2. Issues - None,
 
 3. Resources - cplusplus.com/reference, stackoverflow, in-class lecture notes.
 
